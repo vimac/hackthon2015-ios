@@ -9,13 +9,22 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
 
     var window: UIWindow?
+    var mapManager: BMKMapManager?
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        mapManager = BMKMapManager()
+        // 如果要关注网络及授权验证事件，请设定generalDelegate参数
+        let ret = mapManager?.start("QBkHwYnE8TGlGjlq0eCftmGG", generalDelegate: nil)
+        if !ret! {
+            NSLog("manager start failed!") // 这里推荐使用 NSLog，当然使用 println 也是可以的
+        }
+        
         return true
     }
 
@@ -40,6 +49,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func onGetNetworkState(iError: Int32) {
+        if (0 == iError) {
+            NSLog("联网成功");
+        }
+        else{
+            NSLog("联网失败，错误代码：Error\(iError)");
+        }
+    }
+    
+    func onGetPermissionState(iError: Int32) {
+        if (0 == iError) {
+            NSLog("授权成功");
+        }
+        else{
+            NSLog("授权失败，错误代码：Error\(iError)");
+        }
+    }
+
 
 
 }

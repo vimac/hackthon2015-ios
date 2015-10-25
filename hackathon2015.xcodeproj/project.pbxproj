@@ -8,20 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		0436EA7E1BDB92BE00046366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436EA7D1BDB92BE00046366 /* AppDelegate.swift */; };
-		0436EA801BDB92BF00046366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436EA7F1BDB92BE00046366 /* ViewController.swift */; };
+		0436EA801BDB92BF00046366 /* QRCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436EA7F1BDB92BE00046366 /* QRCameraController.swift */; };
 		0436EA831BDB92BF00046366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0436EA811BDB92BF00046366 /* Main.storyboard */; };
 		0436EA851BDB92BF00046366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0436EA841BDB92BF00046366 /* Assets.xcassets */; };
 		0436EA881BDB92BF00046366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0436EA861BDB92BF00046366 /* LaunchScreen.storyboard */; };
+		0436EA901BDB947300046366 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EA8F1BDB947300046366 /* AVFoundation.framework */; };
+		0436EA921BDB947900046366 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EA911BDB947900046366 /* CoreImage.framework */; };
+		0436EA941BDBA75800046366 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436EA931BDBA75800046366 /* MainWebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0436EA961BDBB91A00046366 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EA951BDBB91A00046366 /* WebKit.framework */; };
+		0436EAA21BDBE55200046366 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAA11BDBE55200046366 /* CoreLocation.framework */; };
+		0436EAA41BDBE57F00046366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAA31BDBE57F00046366 /* Foundation.framework */; };
+		0436EAA61BDBE58C00046366 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAA51BDBE58C00046366 /* Security.framework */; };
+		0436EAAA1BDBE69E00046366 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAA81BDBE69E00046366 /* libsqlite3.tbd */; };
+		0436EAAD1BDBE6F600046366 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAAC1BDBE6F600046366 /* CoreTelephony.framework */; };
+		0436EAAF1BDBE71500046366 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAAE1BDBE71500046366 /* libstdc++.tbd */; };
+		0436EAB11BDBE72F00046366 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAB01BDBE72F00046366 /* QuartzCore.framework */; };
+		0436EAB31BDBE73D00046366 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAB21BDBE73D00046366 /* SystemConfiguration.framework */; };
+		0436EABE1BDBF02200046366 /* map.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0436EABD1BDBF02200046366 /* map.mm */; settings = {ASSET_TAGS = (); }; };
+		0436EAC01BDBF21D00046366 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EABF1BDBF21D00046366 /* MessageUI.framework */; };
+		0436EAC21BDBF23400046366 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAC11BDBF23400046366 /* CoreGraphics.framework */; };
+		0436EAC41BDBF24A00046366 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAC31BDBF24A00046366 /* OpenGLES.framework */; };
+		0436EAC61BDBF8D700046366 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0436EAC51BDBF8D700046366 /* mapapi.bundle */; };
+		0436EAC81BDBFCD100046366 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436EAC71BDBFCD100046366 /* BaiduMapAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0436EA7A1BDB92BE00046366 /* hackathon2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathon2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0436EA7D1BDB92BE00046366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0436EA7F1BDB92BE00046366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0436EA7F1BDB92BE00046366 /* QRCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraController.swift; sourceTree = "<group>"; };
 		0436EA821BDB92BF00046366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0436EA841BDB92BF00046366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0436EA871BDB92BF00046366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0436EA891BDB92BF00046366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0436EA8F1BDB947300046366 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0436EA911BDB947900046366 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0436EA931BDBA75800046366 /* MainWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
+		0436EA951BDBB91A00046366 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0436EAA11BDBE55200046366 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0436EAA31BDBE57F00046366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0436EAA51BDBE58C00046366 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0436EAA71BDBE69E00046366 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0436EAA81BDBE69E00046366 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0436EAAC1BDBE6F600046366 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0436EAAE1BDBE71500046366 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0436EAB01BDBE72F00046366 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0436EAB21BDBE73D00046366 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0436EABB1BDBF02200046366 /* hackathon2015-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hackathon2015-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		0436EABD1BDBF02200046366 /* map.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = map.mm; sourceTree = "<group>"; };
+		0436EABF1BDBF21D00046366 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0436EAC11BDBF23400046366 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0436EAC31BDBF24A00046366 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0436EAC51BDBF8D700046366 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = lib/BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		0436EAC71BDBFCD100046366 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI.framework; path = lib/BaiduMapAPI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0436EAC81BDBFCD100046366 /* BaiduMapAPI.framework in Frameworks */,
+				0436EAC41BDBF24A00046366 /* OpenGLES.framework in Frameworks */,
+				0436EAC21BDBF23400046366 /* CoreGraphics.framework in Frameworks */,
+				0436EAC01BDBF21D00046366 /* MessageUI.framework in Frameworks */,
+				0436EAB31BDBE73D00046366 /* SystemConfiguration.framework in Frameworks */,
+				0436EAB11BDBE72F00046366 /* QuartzCore.framework in Frameworks */,
+				0436EAAF1BDBE71500046366 /* libstdc++.tbd in Frameworks */,
+				0436EAAD1BDBE6F600046366 /* CoreTelephony.framework in Frameworks */,
+				0436EAAA1BDBE69E00046366 /* libsqlite3.tbd in Frameworks */,
+				0436EAA61BDBE58C00046366 /* Security.framework in Frameworks */,
+				0436EAA41BDBE57F00046366 /* Foundation.framework in Frameworks */,
+				0436EAA21BDBE55200046366 /* CoreLocation.framework in Frameworks */,
+				0436EA961BDBB91A00046366 /* WebKit.framework in Frameworks */,
+				0436EA921BDB947900046366 /* CoreImage.framework in Frameworks */,
+				0436EA901BDB947300046366 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +91,8 @@
 		0436EA711BDB92BE00046366 = {
 			isa = PBXGroup;
 			children = (
+				0436EAAB1BDBE6A700046366 /* frameworks */,
+				0436EA971BDBDAE700046366 /* lib */,
 				0436EA7C1BDB92BE00046366 /* hackathon2015 */,
 				0436EA7B1BDB92BE00046366 /* Products */,
 			);
@@ -54,14 +109,48 @@
 		0436EA7C1BDB92BE00046366 /* hackathon2015 */ = {
 			isa = PBXGroup;
 			children = (
+				0436EABD1BDBF02200046366 /* map.mm */,
+				0436EABB1BDBF02200046366 /* hackathon2015-Bridging-Header.h */,
 				0436EA7D1BDB92BE00046366 /* AppDelegate.swift */,
-				0436EA7F1BDB92BE00046366 /* ViewController.swift */,
+				0436EA7F1BDB92BE00046366 /* QRCameraController.swift */,
 				0436EA811BDB92BF00046366 /* Main.storyboard */,
+				0436EA931BDBA75800046366 /* MainWebViewController.swift */,
 				0436EA841BDB92BF00046366 /* Assets.xcassets */,
 				0436EA861BDB92BF00046366 /* LaunchScreen.storyboard */,
 				0436EA891BDB92BF00046366 /* Info.plist */,
 			);
 			path = hackathon2015;
+			sourceTree = "<group>";
+		};
+		0436EA971BDBDAE700046366 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0436EAC51BDBF8D700046366 /* mapapi.bundle */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		0436EAAB1BDBE6A700046366 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0436EAC71BDBFCD100046366 /* BaiduMapAPI.framework */,
+				0436EAC31BDBF24A00046366 /* OpenGLES.framework */,
+				0436EAC11BDBF23400046366 /* CoreGraphics.framework */,
+				0436EABF1BDBF21D00046366 /* MessageUI.framework */,
+				0436EAB21BDBE73D00046366 /* SystemConfiguration.framework */,
+				0436EAB01BDBE72F00046366 /* QuartzCore.framework */,
+				0436EAAE1BDBE71500046366 /* libstdc++.tbd */,
+				0436EAAC1BDBE6F600046366 /* CoreTelephony.framework */,
+				0436EA951BDBB91A00046366 /* WebKit.framework */,
+				0436EA911BDB947900046366 /* CoreImage.framework */,
+				0436EA8F1BDB947300046366 /* AVFoundation.framework */,
+				0436EAA71BDBE69E00046366 /* libsqlite3.0.tbd */,
+				0436EAA81BDBE69E00046366 /* libsqlite3.tbd */,
+				0436EAA51BDBE58C00046366 /* Security.framework */,
+				0436EAA31BDBE57F00046366 /* Foundation.framework */,
+				0436EAA11BDBE55200046366 /* CoreLocation.framework */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +179,7 @@
 		0436EA721BDB92BE00046366 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Mac;
 				TargetAttributes = {
@@ -122,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0436EAC61BDBF8D700046366 /* mapapi.bundle in Resources */,
 				0436EA881BDB92BF00046366 /* LaunchScreen.storyboard in Resources */,
 				0436EA851BDB92BF00046366 /* Assets.xcassets in Resources */,
 				0436EA831BDB92BF00046366 /* Main.storyboard in Resources */,
@@ -135,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0436EA801BDB92BF00046366 /* ViewController.swift in Sources */,
+				0436EA941BDBA75800046366 /* MainWebViewController.swift in Sources */,
+				0436EA801BDB92BF00046366 /* QRCameraController.swift in Sources */,
+				0436EABE1BDBF02200046366 /* map.mm in Sources */,
 				0436EA7E1BDB92BE00046366 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +342,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = hackathon2015/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.vifix.hackathon2015;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hackathon2015-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -260,10 +366,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = hackathon2015/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.vifix.hackathon2015;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hackathon2015-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +404,7 @@
 				0436EA8E1BDB92BF00046366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
